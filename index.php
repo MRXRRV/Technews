@@ -9,10 +9,13 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-	
+
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<div class="menu-btn">
+		<i class="fa fa-bars"></i>
+	</div>
 	<div class="container">
 		<nav class="nav-main">
 			<img src="img/brand.png" alt="Technews logo" class="nav-brand">
@@ -230,5 +233,9 @@
 	<footer class="footer">
 		<h3>tech new copyright</h3>
 	</footer>
+	<!-- library scroll reveal -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<script src="main.js?<?php print date('Y-m-d H:i:s'); ?>"></script>
 </body>
 </html>
